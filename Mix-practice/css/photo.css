@@ -1,0 +1,21 @@
+h3 {
+    font-family: 'Raleway', sans-serif;
+    margin-left: 1.66%;
+    text-transform: uppercase;
+}
+
+hr {
+    border: dotted #f1f1f1 6px;
+    margin: 10px 0;
+    border-bottom: none;
+    margin-left: 1.66%;
+    width: 29%;
+
+}
+
+img {
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+    /* in body we have to keep 10% margin in from left and right then count the margin between the pictures that you want to keep to keep them apart so here 6 margins is total so it will be 10/6= % */
+}
