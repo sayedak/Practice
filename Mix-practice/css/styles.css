@@ -1,13 +1,16 @@
-body{
-  margin : 0;
+body {
+  margin: 0;
 }
-.top_container {
+.bottom_container {
   background-color: red;
   width: 100px;
   height: 100px;
   position: absolute;
-  top : 200px;
+  top: 200px;
   left: 200px;
+  -moz-box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.606);
+  -webkit-box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.606);
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.606);
 }
 
 .middle_container {
@@ -15,14 +18,19 @@ body{
   width: 100px;
   height: 100px;
   position: absolute;
-   top : 100px;
+  top: 100px;
   left: 100px;
+  -moz-box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.606);
+  -webkit-box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.606);
+  box-shadow: inset 10px 10px 30px rgba(0, 0, 0, 0.606);
 }
 
-.bottom_container {
+.top_container {
   background-color: yellow;
   width: 100px;
   height: 100px;
   position: absolute;
-  
+  -moz-box-shadow: inset 10px 10px 30px rgba(0, 0, 0, 0.606);
+  -webkit-box-shadow: inset 10px 10px 30px rgba(0, 0, 0, 0.606);
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.606);
 }
