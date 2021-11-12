@@ -34,7 +34,7 @@
       <label for="email">Email:</label>
       <input id="email" type="email" name="email" placeholder="Your Email Address" required>
       <label for="password">Password:</label>
-      <input id="password" type="password" name="password" pattern=".{5,10}" placeholder="Your password" required title="Password between 5-10 characters">
+      <input id="password" type="password" name="password" pattern=".{5,10}" title="Password between 5-10 characters" placeholder="Your password"  required>
     </div>
     <!-- BIRTHDAY -->
     <div>
@@ -66,13 +66,22 @@
     </div>
     <!-- AGREE & SUBMIT -->
     <div>
-      <label for="agree">I agree to the terms and conditions</label>
+      <br>
       <input id="agree" type="checkbox" name="agree" required>
+      <label for="agree">I agree to the terms and conditions</label>
+      <br>
       <br>
       <input type="submit" name="submit" value="Submit">
+      <br>
+      <br>
+      <label for="">Progress: 
+        <progress min="0" max="100" value="80"></progress>
+      </label>
+     &copy;
     </div>
   </form>
-
+  <svg heignt="2000" width="2000"> <circle cx="90" cy="90" r="55" fill="red" stroke="black" /></svg>
+  <svg heignt="2000" width="2000"> <cube cx="90" cy="90" r="55" fill="red" stroke="black" /></svg>
 </body>
 
 </html>
