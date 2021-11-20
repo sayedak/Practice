@@ -1,3 +1,4 @@
+/*Navigation Part*/
 .nav {
     background-color: lightpink;
     display: flex;
@@ -38,6 +39,28 @@
     }
 }
 
+/*Body section*/
 body {
     margin: 0px;
+}
+
+/*Top-Middle section*/
+.top-middle {
+    display: flex;
+    justify-content: center;
+    /*margin: 30px auto;*/
+
+    flex-flow: row wrap;
+
+    flex: 1 100%;
+
+}
+
+.top-middle p {
+    display: block;
+    padding: 1em;
+    background-color: blanchedalmond;
+    border: 5px solid black;
+    width: 30%;
+
 }
