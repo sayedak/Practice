@@ -1,0 +1,43 @@
+.nav {
+    background-color: lightpink;
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+    margin: 0px;
+    list-style: none;
+}
+
+.nav a {
+    color: rgb(255, 255, 255);
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1em;
+}
+
+.nav a:hover {
+    background-color: palevioletred;
+}
+
+@media all and (max-width: 800px) {
+    .nav {
+        justify-content: space-around;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .nav {
+        flex-flow: column wrap;
+        padding: 0px;
+    }
+
+    .nav a {
+        border: 1px solid rgba(255, 255, 255, 0.308);
+        text-align: center;
+        padding: 1em;
+    }
+}
+
+body {
+    margin: 0px;
+}
