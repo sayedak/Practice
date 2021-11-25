@@ -101,6 +101,8 @@ body {
   max-width: 300px;
   padding: 2rem;
 }
+
+/* Align Self flex property */
 .lp2 {
   align-self: stretch;
   background-color: blueviolet;
@@ -110,7 +112,7 @@ body {
   background-color: rgb(226, 74, 181);
 }
 
-/*Media part*/
+/*Flex items behaviour at 600px */
 @media all and (max-width: 800px) {
   .top-middle {
     justify-content: center;
@@ -142,7 +144,7 @@ body {
     max-width: 500px;
   }
 }
-
+/*Flex items behaviour at 600px */
 @media all and (max-width: 600px) {
   .top-middle {
     justify-content: center;
